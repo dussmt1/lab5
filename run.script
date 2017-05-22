@@ -1,0 +1,12 @@
+Script started on 2017年05月23日 (週二) 04時25分06秒
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~/cpp_programming/lab5 $[00m ./ru[K[K[K[Kmake
+g++ -std=c++11 -c lab5.cpp -o lab5.o
+g++ -std=c++11 -c hugeint.cpp -o hugeint.o
+g++ -std=c++11 lab5.o hugeint.o -o lab5
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~/cpp_programming/lab5 $[00m ./lab5
+2147483647
+2147483647+28825252=2176308899
+314159265356831870199
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~/cpp_programming/lab5 $[00m exit
+
+Script done on 2017年05月23日 (週二) 04時25分31秒
